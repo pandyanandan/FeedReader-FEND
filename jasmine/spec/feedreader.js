@@ -81,7 +81,7 @@ $(function() {
     describe('Initial Entries', function() {
       /* this requires async approch so using done() */
         beforeEach(function(done) {
-                loadFeed(0,done)
+                loadFeed(0,done);
             });
 
          /* following test checks element within .feed container to ensure
